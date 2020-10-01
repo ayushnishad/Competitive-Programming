@@ -36,3 +36,4 @@ int main() {
     if (prime[arr[2]])
         ft.add(in[2], 1);
 }
+// practice problem https://www.codechef.com/problems/AVVST
