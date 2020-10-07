@@ -2,7 +2,7 @@
 using namespace std;
 
 struct trie {
-	trie* child[26];
+	trie* child[26];//we can use unordered_map to make it memory efficient.
 	bool isEnd;
 	trie()
 	{
