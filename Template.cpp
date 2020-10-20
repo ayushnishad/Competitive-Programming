@@ -1,5 +1,5 @@
 // author : ayush_nishad
-// Road to Expert since : 30 Aug 2020
+// Road to Expert since : 30 Aug 2020 - Achieved on 12 Oct 2020
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -18,7 +18,7 @@ using namespace std;
 void fast()
 {
     ios_base::sync_with_stdio(false);
-    cin.tie(NULL);cout.tie(NULL);
+    cin.tie(NULL); cout.tie(NULL);
 #ifndef ONLINE_JUDGE
     freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
@@ -43,4 +43,8 @@ int32_t main()
     //cerr << sizeof(dp)*(1e-6) << " megabytes\n";
     return 0;
 }
-
+/*
+imp stuff:
+-make what you acess is valid if(m > 0)curr = a[0]; <-RuntimeError
+-look for n == 0?
+*/
